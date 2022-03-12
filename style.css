@@ -1,0 +1,161 @@
+body main {
+  font-family: 'Oswald', sans-serif;
+}
+
+main {
+  margin-top: 70px;
+  opacity: 0;
+  transition: 1.7s;
+}
+
+.fade-in {
+ opacity: 1;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+main hr {
+  opacity: 1;
+}
+
+main h1 {
+  font-size: 66px;
+  line-height: 53px;
+  margin-top: 30px;
+}
+
+main h2 {
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: lighter;
+  margin-bottom: -10px;
+}
+
+main h3 {
+  margin-top: 40px;
+}
+
+.portrait img {
+  max-width: 350px;
+  width: 100%;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+li {
+  list-style: square;
+  margin-bottom: 5px;
+}
+
+.company-title {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+/***** progress bars ****/
+.tool {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.progress-line {
+  width: 65%;
+  height: 1px;
+  background-color: #212529;
+  position: relative;
+}
+
+.tool-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.progress-meter {
+  height: 15px;
+  width: 2px;
+  background-color: #212529;
+  position: absolute;
+  right: 100%;
+  top: -6px;
+  transition: 2.5s;
+}
+
+.progress-meter-html {
+  right: 50%;
+}
+
+.progress-meter-css {
+  right: 60%;
+}
+
+.progress-meter-js {
+  right: 85%;
+}
+
+.progress-meter-wp {
+  right: 40%;
+}
+
+.progress-meter-eng {
+  right: 20%;
+}
+
+.progress-meter-gimp {
+  right: 80%;
+}
+
+/**** contact ****/
+.contact {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.contact-item {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.contact div {
+  margin-right: 50px;
+}
+
+main a {
+  color: #212529;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: #ababab;
+}
+
+i {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.contact-item .fa-envelope {
+  margin-left: 70px;
+}
+
+/**** media queries ****/
+
+@media (max-width:767px) {
+  .contact {
+    display: block;
+  }
+}
